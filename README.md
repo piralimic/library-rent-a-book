@@ -36,6 +36,19 @@ query{
 }
 ```
 
+### 4. Query Example
+> See the DOCS and SCHEMA on the rigth-side of the Playground Screen to get all the queries examples
+```graphql
+query{
+  books{
+    id
+    title
+    author
+    available
+  }
+}
+```
+
 ## Objectives
 Create GraphQL API with MongoDB to manage a Library (books renting) :
 - manage books informations
