@@ -6,7 +6,7 @@
 ## Live Demo on glitch.com
 GraphQL Playground : https://dev-to-library-graphql.glitch.me/graphql
 
-### 1. create a user account
+### 1. Create a user account
 ```graphql
 mutation{
   createUser(name:"YourName",email:"YourEmailAddress",password:"YourPassword"){
@@ -18,7 +18,7 @@ mutation{
 }
 ```
 
-### 2. login
+### 2. Login
 ```graphql
 query{
   login(email:"YourEmailAddress",password:"YourPassword"){
@@ -27,8 +27,8 @@ query{
 }
 ```
 
-### 3. add the token into the HTTP HEADERS
-> INFO : HTTP HEADERS is on the left-bottom of the Playground Screen
+### 3. Add the token into the HTTP HEADERS
+> HTTP HEADERS is on the left-bottom of the Playground Screen
 
 ```json
 {
