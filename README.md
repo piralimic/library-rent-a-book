@@ -1,2 +1,57 @@
-# library-rent-a-book
-Node Express Apollo Server MongoDB GraphQL library-rent-a-book project
+# GraphQheLl Library (Back-End project)
+- Type of challenge: GraphQL Learning
+- Deadline : Beginning 2020
+- Team : Serge Bayet & Michaël Pirali
+
+## Live Demo on glitch.com
+GraphQL Playground : https://dev-to-library-graphql.glitch.me/graphql
+
+### 1. create a user account
+```graphql
+mutation{
+  createUser(name:"YourName",email:"YourEmailAddress",password:"YourPassword"){
+    id
+    name
+    email
+    password
+  }
+}
+```
+
+### 2. login
+```graphql
+query{
+  login(email:"YourEmailAddress",password:"YourPassword"){
+    token
+  }
+}
+```
+
+### 3. add the token into the HTTP HEADERS
+> INFO : HTTP HEADERS is on the left-bottom of the Playground Screen
+
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlMDkxZmZmMTVjNjFjMTMxY2IzZjY5OCIsImlhdCI6MTU3ODA2MzM1MiwiZXhwIjoxNTc4MDc1MzUyfQ.mABeouiv_PbiLXFMHAB8jGw8XS0HxkiVxA9tTokoI3c"
+}
+```
+
+## Objectives
+Create GraphQL API with MongoDB to manage a Library (books renting) :
+- manage books informations
+- manage users informations
+- users authentication
+- users should :
+  - rent (max) 5 books/month
+  - post comments about the books
+  - add (5 stars) evaluation to the books
+
+## Tools and References
+- Node.js
+- Express
+- Apollo Server
+- GraphQL
+- MongoDB
+- Mongoose
+- Glitch.com
+- JWT (authentication token)
