@@ -1,4 +1,4 @@
-# GraphQheLl Library (Back-End project)
+# GraphQL Library (Back-End project)
 - Type of challenge: GraphQL Learning
 - Deadline : Beginning 2020
 - Team : Serge Bayet & Michaël Pirali
