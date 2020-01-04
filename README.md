@@ -4,7 +4,8 @@
 - Team : Serge Bayet & Michaël Pirali
 
 ## Live Demo on glitch.com
-GraphQL Playground : https://dev-to-library-graphql.glitch.me/graphql<br><br>
+### GraphQL Playground : 
+https://dev-to-library-graphql.glitch.me/graphql<br><br>
 ![screenshot of the GraphQL Playground](GraphQLPlayground.png "GraphQL Playground")
 ### 1. Create a user account
 ```graphql
